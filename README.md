@@ -14,7 +14,7 @@ The result is one self-contained `.html` file that opens by double-click.
 ## Install
 
 ```sh
-git clone <this repo's URL> ~/.claude/skills/web-slides
+git clone https://github.com/hongxin001/web-slides.git ~/.claude/skills/web-slides
 ```
 
 Restart Claude Code; the skill is picked up automatically. Update with `git pull`.
@@ -53,3 +53,7 @@ See [SKILL.md](SKILL.md) for the slide/shell contract and how the presenter view
 
 - Python 3 (standard library only) to build.
 - Node ≥ 22 and Chrome only for the behaviour test: `node scripts/sync_test.mjs /abs/path/out.html`.
+
+## License
+
+MIT
